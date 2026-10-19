@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Battambang;
+    src :url("../Font/Battambang/Battambang-Regular.ttf");
+}
+@font-face {
+    font-family:Koulen;
+    src :url("../Font/Koulen/Koulen-Regular.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    src :url("../Font/Roboto/static/Roboto-Regular.ttf");
+}
+
+body {
+    font-family: 'Battambang', 'OpenSansRegular';
+}
+h1, h2, h3, h4, h5, h6,.nav-link:hover{
+    font-family: 'Koulen', 'OpenSansSemibold';
+    color: crimson;
+    scale: 1.1;
+    transition: 0.5s;
+}
+.category_card img{
+    height: 100px;
+    object-fit: contain;
+}
+.category_card{
+    padding: 5px;
+}
+footer {
+ background: #e2e8f0;
+ padding: 40px 5% 20px 5%;
+ font-size: 12px;
+ color: #475569;
+ }
+
+ .footer-content {
+ display: grid;
+ grid-template-columns: 2fr 1fr 1fr;
+ gap: 30px;
+ margin-bottom: 30px;
+ }
+.footer-brand {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+font-weight: 700;
+ color: #2b1055;
+ margin-bottom: 10px;
+ }
+
+ .footer-links h4 {
+ font-size: 13px;
+ color: #2b1055;
+ margin-bottom: 10px;
+ }
+
+ .footer-links ul {
+ list-style: none;
+ }
+
+ .footer-links li {
+ margin-bottom: 6px;
+ }
+
+ .footer-links a {
+ text-decoration: none;
+ color: #475569;
+ }
+
+ .payment-methods {
+ display: flex;
+ gap: 8px;
+ margin-top: 10px;
+ }
+
+ .pay-badge {
+ background: #fff;
+ padding: 4px 8px;
+ border-radius: 4px;
+ font-size: 10px;
+ font-weight: 700;
+border: 1px solid #cbd5e1;
+}
+
+ .back-top {
+ text-align: right;
+ margin-top: -30px;
+ }
+
+.btn-top {
+ background: #4c1d95;
+ color: #fff;
+ padding: 6px 14px;
+ border-radius: 15px;
+ text-decoration: none;
+ font-size: 11px;
+ }
+
+
+
+ /* Responsive Design */
+ @media (max-width: 900px) {
+ .product-grid {
+grid-template-columns: repeat(2, 1fr);
+ }
+ .banner {
+ flex-direction: column;
+ text-align: center;
+ }
+ .banner-img img {
+ margin-top: 20px;
+ }
+ }
